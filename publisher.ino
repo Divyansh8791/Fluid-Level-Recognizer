@@ -1,4 +1,10 @@
- #include <PubSubClient.h>
+// In the Fluid Level Recognizer project, the publisher module plays a crucial role in data communication and remote
+// monitoring. This module utilizes an ESP microcontroller (either ESP-32 or ESP8266) to gather fluid level data and 
+// publish it to the MQTTHQ server.
+
+
+
+#include <PubSubClient.h>
 #include<ESP8266WiFi.h>
 #include<WiFiClient.h>
 #include<ESP8266WebServer.h>
