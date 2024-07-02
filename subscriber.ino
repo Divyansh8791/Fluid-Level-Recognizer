@@ -1,4 +1,9 @@
- #include <WiFi.h>
+// In the Fluid Level Recognizer project, the subscriber module is vital for receiving and processing data for effective 
+// fluid level management. This module utilizes an ESP microcontroller (either ESP-32 or ESP8266) to subscribe to data 
+// from the MQTTHQ server.
+
+
+#include <WiFi.h>
 #include <PubSubClient.h> 
 #include<WiFiClient.h> 
 
